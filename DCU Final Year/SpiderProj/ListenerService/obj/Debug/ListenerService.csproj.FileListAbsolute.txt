@@ -1,0 +1,13 @@
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\bin\Debug\ListenerService.exe
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\bin\Debug\ListenerService.pdb
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\obj\Debug\ListenerService.exe
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\obj\Debug\ListenerService.pdb
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\bin\Debug\Spider.Business.dll
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\bin\Debug\Spider.Database.dll
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\bin\Debug\Spider.Business.pdb
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\bin\Debug\Spider.Database.pdb
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\obj\Debug\ListenerService.Installer1.resources
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\obj\Debug\ListenerService.SpiderListener.resources
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\obj\Debug\ListenerService.csproj.GenerateResource.Cache
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\ListenerService\bin\Debug\ListenerService.exe.config

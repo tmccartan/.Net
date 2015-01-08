@@ -1,0 +1,5 @@
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Database\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Database\bin\Debug\Spider.Database.dll
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Database\bin\Debug\Spider.Database.pdb
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Database\obj\Debug\Spider.Database.dll
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Database\obj\Debug\Spider.Database.pdb

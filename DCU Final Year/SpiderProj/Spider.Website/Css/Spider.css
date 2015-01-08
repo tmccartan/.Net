@@ -1,0 +1,1061 @@
+﻿div.FormSureContent {
+	width: 100%;
+	max-width: 800px;
+	
+}
+div.PageContent {
+	max-width: 800px;
+}
+
+/** General Headings **/
+.PageHeader
+{
+	color: #efefef;
+	font-family: Tahoma, Verdana, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*
+===========================================================================================================================================
+
+* Start of Login CSS *
+
+===========================================================================================================================================
+*/
+.GroupBoxHeader
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #4c4b4b;
+}
+
+/** ROUNDED CORNER GROUPBOX **/
+#LoginContainer h1, #LoginContainer h2, #LoginContainer p {letter-spacing:1px; width: auto; height:auto;}
+#LoginContainer h1 {font-size:2.5em; color:#f7fbff;}
+#LoginContainer h2 {font-size:2em;color:#f7fbff; border:0;}
+#LoginContainer {background: transparent; margin:0.2em;}
+
+.xtop, .xbottom {display:block; background:transparent; font-size:1px;}
+.xb1, .xb2, .xb3, .xb4 {display:block; overflow:hidden;}
+.xb1, .xb2, .xb3 {height:1px;}
+.xb2, .xb3, .xb4 {background:#f7fbff; border-left:1px solid #d3ebfc; border-right:1px solid #d3ebfc;}
+.xb1 {margin:0 1em; background:#d3ebfc;}
+.xb2 {margin:0 .5em; border-width:0 2px;}
+.xb3 {margin:0 .3px;}
+.xb4 {height:2px; margin:0 0.3em;}
+
+.LoginBoxContent {display:block; background:#f7fbff; border:0 solid #d3ebfc; border-width:0 1px;}
+
+.RedText {
+	font-family: Tahoma, Verdana, Segoe, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: Red;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.LoginTextBox {
+	width: 93%;
+}
+/** END OF ROUNDED CORNER GROUPBOX **/
+/** End of Login CSS **/
+
+/*
+===========================================================================================================================================
+
+* Start of Form Elements CSS *
+
+===========================================================================================================================================
+*/
+.StatusMessage
+{
+	color: Green; /*#033e6a;*/
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.TextBox
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10px;
+	width: 130px;
+}
+.TextBoxCQ
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10px;
+	width: 130px;
+	height: 25px;
+}
+.Panel
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.NormalButton
+{
+	width: 80px;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10pt;
+	background-color: Transparent;
+	background-image: url(../images/button.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-right: 0px outset;
+	border-top: 0px outset;
+	border-left: 0px outset;
+	border-bottom: 0px outset;
+	width: 60px;
+	height: 25px;
+}
+
+/** End of Form Elements CSS **/
+
+/*
+===========================================================================================================================================
+
+* CSS for Link Cells, like on MainMenu.aspx *
+
+===========================================================================================================================================
+*/
+
+.linkCell a img, .linkCell a {
+	text-decoration: none;
+	color: #2774aa;
+}
+
+.linkCell a img {
+	border: 1px solid #d8ecfb;
+	padding: 5px;
+}
+
+.linkCell a:hover img {
+	border: 1px solid #2774aa;
+}
+
+.linkCell a:hover {
+	text-decoration: underline;
+}
+
+/** Generic Links **/
+.NormalLink {
+	color:Blue;
+}
+.Panel
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+/*
+===========================================================================================================================================
+
+* ** GRIDVIEW ** *
+
+===========================================================================================================================================
+*/
+
+.GridView
+{
+	border: solid 1px #dff1ff;
+	width:100%;
+}
+
+.GridView td
+{
+	border: solid 1px #dff1ff;
+	
+}
+
+.GridViewAltStyle
+{
+	background-color: #f6fafd;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	height: 18px;
+}
+
+.GridViewHeaderStyle
+{
+	background-color: #dff1ff;
+	border: solid 1px #dff1ff;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Tahoma;
+	color: #2774aa;
+	text-align: center;
+	height: 20px;
+}
+
+.GridViewRowStyle
+{
+	background-color: White;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	
+	height: 18px;
+}
+/*Gridview style with clear format*/
+/* DOpulencia 5/12/08 */
+.GridViewAltStyleClear
+{
+	background-color: white;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	height: 18px;
+}
+.GridViewRowStyleClear
+{
+	background-color: White;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	height: 18px;
+}
+.GridViewHeaderStyleClear
+{
+	background-color: white;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Tahoma;
+	color: black;
+	text-align: center;
+	height: 20px;
+}
+/*Gridview style with clear format*/
+.GridViewPageStyle
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.FormLog
+{
+	text-align: left;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Tahoma;
+	color: #003399;
+}
+
+.GridViewScrollBox
+{
+	overflow: auto;
+	border: solid 1px #dff1ff;
+	height: auto;
+	border: none;
+}
+
+/*.GridViewHorizontalScrollBox
+{
+	overflow-x: scroll;
+	border: solid 1px #dff1ff;
+	height: 300px;
+}
+
+.GridViewVerticalScrollBox
+{
+	overflow-y: scroll;
+	border: solid 1px #dff1ff;
+	height: 300px;
+}*/
+
+.GridViewNoScrollBox
+{
+	border: solid 1px #dff1ff;
+	height: 300px;
+}
+
+/** END OF GRIDVIEW **/
+
+
+/*
+===========================================================================================================================================
+
+* Wizard CSS *
+
+===========================================================================================================================================
+*/
+
+
+
+/** <TABLE CSS> **/
+.styleth
+{
+	background-color:#C1C1D6;
+	font-size:medium;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+
+.stylePopup
+{
+	background-color:#F8F8F8;
+	font-size:medium;
+	font-family:Tahoma;
+}
+
+
+.oddtr
+{
+	background-color:#EFF1F1;
+}
+.eventr
+{
+	background-color:#F8F8F8;
+}
+.trover
+{
+	background-color: #C1C1D6;
+}
+.trclick
+{
+	background-color: #00CCCC;
+}
+
+.tablehead
+{
+	 font-size:medium;
+	
+}
+.dragClass
+{
+	background-color: #000000;
+	color:White;
+}
+
+/** WebForm2.aspx **/
+table.zebra tr.even td, table.zebra tr.even th { background-color:#F8F8F8; }
+table.zebra tr.odd td { background-color:#EFF1F1; }
+
+/** </TABLE CSS> **/
+
+.DropDown
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10px;
+	width: 80px;
+}
+
+.DropDownLarge
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 14px;
+	width:80%;
+	height:auto;
+	
+}
+
+.HiddenDropDown
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10px;
+	width: 130px;
+	display:none;
+	visibility:hidden;
+}
+
+/** AJAX TextBoxWatermark**/
+.watermarked
+{
+    background-color:#f6fafd;
+    color:Gray;
+    font: Tahoma;
+
+}
+/** END AJAX WATERMARK **/
+
+.TabletTextBox
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 12px;
+	width: 130px;
+}
+
+.TabletDropDown
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 12px;
+	width: 80%;
+}
+
+/*
+===========================================================================================================================================
+
+*  Modal Pop-up *
+
+===========================================================================================================================================
+*/
+
+
+.watermark {
+	background: #FFAAFF;
+}
+
+.popupControl {
+	background-color:#2774aa;
+	position:absolute;
+	visibility:hidden;
+	border-style:solid;
+	border-color: Black;
+	border-width: 2px;
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#dff1ff;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+
+/*
+===========================================================================================================================================
+
+*  Collapsible Panel*
+
+===========================================================================================================================================
+*/
+
+
+.CollapsePanelDivHeader
+{
+	cursor: pointer;
+	vertical-align: middle;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 4px;
+}
+.collapsePanel {
+	width: 100%;
+	height:0px;
+	background-color:white;
+	overflow:hidden;
+}
+
+.collapsePanelHeader{	
+	width:100%;		
+	height:100%;
+	
+	font-weight:bold;
+	float:left;
+	padding:5px; 
+	cursor: pointer; 
+	vertical-align: middle;
+	background-image: url(../images/collapsiblePanelHeaderLight.gif);
+	background-repeat: repeat-x;
+	color: #2774aa;
+	text-align: left;
+	font-family: tahoma,verdana, sans-serif;
+	font-size: 11px;
+}
+.hiddencol
+    {
+        display:none;
+    }
+
+/*
+===========================================================================================================================================
+
+*  GridView Inbox *
+
+===========================================================================================================================================
+*/
+
+.InboxGridViewStyle
+{
+    font-family: Arial, Sans-Serif;
+    font-size:small;
+    table-layout: auto;
+    border-collapse: collapse;
+    border:#91a7b4 1px solid;
+}
+/*Header and Pager styles*/
+.InboxHeaderStyle, .InboxPagerStyle /*Common Styles*/
+{
+    background-image: url(../images/YahooSprite.gif);
+    background-position:top;
+    background-repeat:repeat-x;
+    background-color:#d1dbe0;
+}
+.InboxHeaderStyle th
+{
+   padding: 5px;
+    color: #16387c;
+    font-size:12;
+}
+.InboxHeaderStyle a
+{
+    text-decoration:none;
+    color:#16387c;
+    display:block;
+    text-align:left;
+    font-weight:normal;
+}
+.InboxPagerStyle table
+{
+    text-align:center;
+    margin:auto;
+}
+.InboxPagerStyle table td
+{
+    border:0px;
+    padding:5px;
+}
+.InboxPagerStyle td
+{
+    border-top: #91a7b4 1px solid;
+}
+.InboxPagerStyle a
+{
+    color:#16387c;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+    border-top:solid 1px #fff;
+    border-right:solid 1px #91a7b4;
+    border-bottom:solid 1px #91a7b4;
+    border-left:solid 1px #fff;
+}
+.InboxPagerStyle span
+{
+    font-weight:bold;
+    color:#16387c;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+}
+/*RowStyles*/
+.InboxRowStyle td, .InboxAltRowStyle td, .InboxSelectedRowStyle td, .InboxEditRowStyle td /*Common Styles*/
+{
+  vertical-align: middle;
+   padding: 5px;
+   border-right: solid 1px #91a7b4;
+}
+.InboxRowStyle td
+{
+    vertical-align: middle;
+    background-color: #f1f5f6;
+}
+.InboxAltRowStyle td
+{
+    background-color: #9ab2ca;
+	background-image: url(../images/YahooSprite.gif);
+    background-position:0 -80px;
+    background-repeat:repeat-x;
+}
+.InboxSelectedRowStyle td
+{
+    background-color: #ffff66;
+}
+.expand-panel {
+	margin-left: 3em;
+	text-align:left;
+	font-family: Tahoma;
+	height: auto;
+	
+	
+}
+.internal-panel {
+	margin-left: 1em;
+	text-align:left;
+	font-family: Tahoma;
+	background-color:#f1f5f6;
+	height: auto;
+	
+}
+.imageLink
+{
+    cursor: pointer;
+}
+
+/*
+===========================================================================================================================================================
+
+Slainte PDS
+
+===========================================================================================================================================================
+
+*/
+
+ table
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+body 
+{
+	font-size: 9pt; 
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	background-color: white;
+	width:98%;
+	text-align: center;
+}
+
+.MainCell
+{
+	vertical-align: bottom;
+	/*border-top: solid 2px #dff1ff;*/
+	border-bottom: solid 1px #dff1ff;
+	border-left: solid 1px #dff1ff;
+	border-right: solid 1px #dff1ff;
+	background-color: #F7F7F7;
+	z-index: 100;
+}
+
+.MainGradient
+{
+	background-image: url(../images/body_gradient.jpg);
+	background-repeat: no-repeat;
+}
+
+.MainBox
+{
+	vertical-align: bottom;
+	width: 98%;
+	text-align: center;
+	z-index: 0;
+}
+
+.ContentTable
+{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	width: 98%;	
+	z-index: 0;
+}
+/** TEXT **/
+.Disclaimer
+{
+	color: #387da8;
+	font-size: 8pt;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+.BreadCrumbText
+{
+	font-family: Tahoma, Verdana,Segoe,sans-serif;
+	font-size: 8pt;
+	color: #2774aa;
+}
+/** END OF TEXT **/
+
+/** rounded corners **/
+.RoundedBorder{
+  width        : 100%;
+  z-index: 0;
+}
+/*
+===========================================================================================================================================
+
+** Subheader border**
+
+===========================================================================================================================================
+*/
+.pmb2, .pmb3, .pmb4,.pmbContent{
+  background   : ##efefef;
+  border-color : #d8ecfb;
+}
+.pmb1{
+  background   : ##efefef;
+}
+.pmb2, .pmb3, .pmb4{
+  border-style : solid;
+  border-width : 0 1px;
+}
+.pmbContent{
+  display      : block;
+  border-style : solid;
+  border-width : 0 1px;
+}
+.pmb1, .pmb2, .pmb3{
+  height       : 1px;
+}
+.pmb1{
+  margin       : 0 0 0 1em;
+}
+.pmb2{
+  margin       : 0 0 0 .5em;
+  border-width : 0 2px;
+}
+.pmb3{
+  margin       : 0 0 0 .3em;
+}
+.pmb4{
+  height       : .3em;
+  margin       : 0 .3em;
+}
+.pmb1, .pmb2, .pmb3, .pmb4{
+  display      : block;
+  overflow     : hidden;
+}
+.pmbBlock{
+  display      : block;
+  font-size    : 1px;
+}
+/** end of subheader border **/
+
+/*
+===========================================================================================================================================
+
+*Main box border*
+
+===========================================================================================================================================
+*/
+
+.mb2, .mb3, .mb4, .mbContent
+{
+  background   : WHITE;
+  border-color : #efefef;
+}
+.mb1
+{
+  background   : #efefef;
+}
+.mb2, .mb3, .mb4
+{
+  border-style : solid;
+  border-width : 0 1px;
+}
+.mbContent
+{
+  display      : block;
+  border-style : solid;
+  border-width : 0 1px;
+}
+.mb1, .mb2, .mb3
+{
+  height       : 1px;
+}
+.mb1
+{
+  margin       : 0 0 0 1em;
+}
+.mb2
+{
+  margin       : 0 0 0 .5em;
+  border-width : 0 2px;
+}
+.mb3
+{
+  margin       : 0 0 0 .5em;
+}
+.mb4
+{
+    
+  height       : 4px;
+  margin       : 0 .3em;
+}
+.mb1, .mb2, .mb3, .mb4
+{
+  display      : block;
+  overflow     : hidden;
+}
+.mb1, .mb2, .mb3, .mb4, .mbContent, .mbBlock
+{
+	  width: 100%;
+}
+.mbBlock
+{
+  display      : block;
+  font-size    : 1px;
+}
+/*
+===========================================================================================================================================
+
+** masterpage border ***
+
+===========================================================================================================================================
+*/
+
+.m2, .m3, .m4,.mContent
+{
+  background   : #f8fbfd;
+  border-color : #dff1ff;
+}
+.m1
+{
+  background   : #dff1ff;
+}
+.m2, .m3, .m4
+{
+  border-style : solid;
+  border-width : 0 1px;
+}
+.mContent
+{
+  display      : block;
+  border-style : solid;
+  border-width : 0 1px;
+}
+.m1, .m2, .m3
+{
+  height       : 1px;
+}
+.m1
+{
+  margin       : 0 5px;
+}
+.m2
+{
+  margin       : 0 3px;
+  border-width : 0 2px;
+}
+.m3
+{
+  margin       : 0 2px;
+ }
+.m4
+{
+  height       : 2px;
+  margin       : 0 1px;
+}
+.m1, .m2, .m3, .m4
+{
+  display      : block;
+  overflow     : hidden;
+}
+.m5
+{
+  font-size    : 1px;
+  display      : block;
+  overflow     : hidden;
+  height       : 1px;
+}
+.mBlock
+{
+  display      : block;
+  font-size    : 1px;
+}
+
+/** end of masterpage border **/
+/** end of rounded corners **/
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/drop_examples.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* commom style for all browsers */
+.container 
+{
+    text-align:center; background:transparent url(../images/tab_long.gif); height:27px;
+}
+
+.menu 
+{
+    float:left;
+    width:100%;
+    background:url("../images/tab_long.gif") no-repeat left top ;
+    font-size:140%;
+    line-height:normal;
+}
+
+.menu ul 
+{
+    margin:0;
+    padding:0;
+
+}
+
+.menu ul li 
+{
+    float:left; position:relative; background: url("../images/tab_long.gif") no-repeat left top;  
+}
+
+/*
+===========================================================================================================================================
+
+** Horizontal MENU ***
+
+===========================================================================================================================================
+*/
+
+/* BACKGROUND*/
+.menu ul li.ddl
+ {
+    float:left; position:relative; background:#fff  ;
+}
+
+/* DROP DOWN MENU HOVER*/
+.menu ul li.ddl a span 
+{
+    float:left;
+    display:block;
+    padding:5px 15px 4px 6px;
+    color:#2774aa;
+}
+
+.menu ul li a span 
+{
+    float:left;
+    display:block;
+    background: background: url("../images/tab_long_activecs.gif") no-repeat left top ;
+    width:100%;
+    padding:5px 15px 4px 6px;
+    color:#2774aa;
+    font-weight:bold;
+}
+
+.menu ul li a 
+{
+    float:left;
+    background: background: url("../images/tab_long_activecs.gif") no-repeat left top ;
+    margin:0;
+    
+    padding:0 0 0 4px;
+    text-decoration:none;
+}
+
+.menu ul li ul
+ {
+    visibility:hidden; position:absolute; top:0; left:0; height:0; overflow:hidden; 
+}
+.menu ul li:hover ul,
+.menu ul li a:hover ul 
+{
+    visibility: visible; width:120%; height:auto; top:26px; left:0px; background:#fff; 
+    overflow:hidden;
+}
+/* fist line style for IE7 and non-IE browsers and the second line for IE5.5 and IE6 */
+.menu ul li:hover a,
+.menu ul li a:hover
+{
+
+    color:#fff; text-decoration:none; border:0;  width:100%;  
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.menu a span {float:none;}
+/* End IE5-Mac hack */
+.menu a:hover span 
+{
+    color:#2774aa;
+}
+.menu ul li:hover ul li a:hover,
+.menu ul li a:hover ul li a:hover 
+{
+    color:#ca0016; text-decoration:none;
+}
+
+.menu a:hover
+{
+	cursor:pointer;
+	float:left;
+	background: url("../images/tab_long_activecs.gif") no-repeat left top ;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	
+}
+.menu a:hover span 
+{
+    background-position:100% -42px;
+}
+    
+
+.menu a span 
+{
+    float:left;
+    display:block;
+    background: background: url("../images/tab_long_active.gif") no-repeat left top ;
+    padding:5px 15px 4px 6px;
+    color:#2774aa;
+    font-weight:bold;
+}
+
+.menu a 
+{
+    float:left;
+    background: background: url("../images/tab_long.gif") no-repeat left top ;
+    margin:0;
+    padding:0 0 0 4px;
+    text-decoration:none;
+
+
+}
+/* ========================[Extender cSS]===================================== */
+
+.ListSearchExtenderPrompt
+{   background-color :#2774aa;
+    font-style:italic;
+    font-size:medium;
+	color:White;
+	text-align:left;
+	
+	
+	
+}
+/* ================================================================ */
+
+  #tabsF {
+      float:left;
+      width:100%;
+      background:#FFF;
+      font-size:93%;
+      line-height:normal;
+	  border-bottom:1px solid #F7F7F7;
+      }
+    #tabsF ul {
+	  margin:0;
+	  padding:0px 0px 0px 0px;
+	  list-style:none;
+      }
+    #tabsF li {
+      display:inline;
+      margin:0;
+      padding:0;
+      border-bottom :1px solid #666;
+      }
+    #tabsF a {
+      float:left;
+      background:url("../images/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsF a span {
+      float:left;
+      display:block;
+      background:url("../images/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsF a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsF a:hover span {
+      color:#FFF;
+      }
+    #tabsF a:hover {
+      background-position:0% -42px;
+      }
+    #tabsF a:hover span {
+      background-position:100% -42px;
+      }
+

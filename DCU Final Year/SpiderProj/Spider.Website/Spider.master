@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Spider.master.cs" Inherits="Spider" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Spider</title>
+    
+   
+    
+     
+ 
+    
+ 
+   <!--[if gte IE 7]>
+    <link href="~/Css/Spider.css" rel="stylesheet" type="text/css" />
+   <![endif]-->
+  
+   
+    <script type="text/javascript" src="scripts/Spider.js"></script>
+   <%-- <asp:ScriptManager runat="Server" EnableScriptGlobalization="true"
+        EnableScriptLocalization="true" ID="ScriptManager1" EnablePageMethods="true" EnablePartialRendering="true" />
+    --%>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 800px;" class="body" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <table style="width:100%" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left" style="width: 50%">
+                                    <asp:Image ID="Image1" ImageUrl="~/images/DCUlogo.gif" runat="server" AlternateText="Logo" />
+                                    </td>
+                                    
+                                <td align="right" valign="bottom" style="padding-bottom: 4px; position: relative">
+                                    <asp:Panel ID="pnlUserGreeting" runat="server" Width="100%" HorizontalAlign="Right">
+                                        <asp:Label ID="lblGreeting" runat="server" Text="Hi, " CssClass="SystemText"></asp:Label><asp:Label
+                                            ID="lblUsername" runat="server" Text="Guest" CssClass="SystemText"></asp:Label><asp:Label
+                                                ID="lblExclamation" runat="server" Text="!" CssClass="SystemText"></asp:Label>
+                                        <asp:LinkButton ID="lnkLogOff" runat="server" CssClass="HyperLinkButton" OnClick="lnkLogOff_Click">Log-off</asp:LinkButton>
+                                    </asp:Panel>
+                                    <asp:Label ID="lblDate" runat="server" Text="DOW, DD MONTH YEAR" CssClass="SystemText"></asp:Label>&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="MainCell">
+                        <table style="height: 100%" width="100%" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td>
+                                    <div class="container">
+                                        <div class = "menu" >
+                                                                                
+                                        <div id="tabsF">
+                                          <ul>
+                                            <li><a href="MainMenu.aspx" title="Home"><span>&nbsp;&nbsp;Home&nbsp;&nbsp;</span></a></li>
+                                            <li id="SyntaxTab" runat="server"><a href="SyntaxWizard.aspx" title="New Syntax File"><span>&nbsp;&nbsp;New Syntax&nbsp;&nbsp;</span></a></li>
+                                            <li><a href="Logs.aspx" title="Logs"><span>&nbsp;&nbsp;Logs&nbsp;&nbsp;</span></a></li>
+                                            <li><a href="Admin.aspx" title="Admin Section"><span>&nbsp;&nbsp;Admin&nbsp;&nbsp;</span></a></li>
+                                           </ul>
+                                        </div>
+                                        <br /><br />
+
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" class="MainGradient" width="100%">
+                                        <tr>
+                                            <td style="width: 2px">
+                                            </td>
+                                            <td style="height: 5px;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 2px; height: 14px;">
+                                            </td>
+                                            <td style="height: 27px;" class="SubHeader">
+                                               <%-- <div class="RoundedBorder">
+                                                    <b class="pmbBlock"><b class="pmb1"></b><b class="pmb2"></b><b class="pmb3"></b><b
+                                                        class="pmb4"></b></b>
+                                                    <div class="pmbContent">
+                                                        <table cellpadding="0" cellspacing="0" width="99%">
+                                                            <tr>
+                                                                <td align="left" class="BreadCrumbText" style="width: 7px">
+                                                                </td>
+                                                                <td style="width: 50%" align="left" class="BreadCrumbText">
+                                                                    <%--<uc2:BreadCrumb id="breadcrumb" runat="server" />
+                                                                    <asp:Literal ID="litPageTitle" runat="server"></asp:Literal></td>
+                                                                <td align="right">
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <b class="pmb5"></b>
+                                                    </div>
+                                                    <b class="pmbBlock"><b class="pmb4"></b><b class="pmb3"></b><b class="pmb2"></b><b
+                                                        class="pmb1"></b></b>
+                                                </div>--%>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td style="height: 5px">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td class="MainBox">
+                                                <div class="RoundedBorder">
+                                                    <b class="mbBlock"><b class="mb1"></b><b class="mb2"></b><b class="mb3"></b><b class="mb4">
+                                                    </b></b>
+                                                    <div class="mbContent">
+                                                        <b class="mb5"></b>
+                                                        <table cellpadding="0" cellspacing="0" border="0" class="ContentTable">
+                                                            <tr>
+                                                                <td>
+                                                                    <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server">
+                                                                    </asp:ContentPlaceHolder>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <b class="mb5"></b>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

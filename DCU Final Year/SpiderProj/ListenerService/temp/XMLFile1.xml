@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<type name="AO1">
+   <segment value="EVN" number ="1">
+    <field value="A01" number ="2"/>
+    <field value="Nubmer1" number="3" />
+    <field value="test" number ="4" />
+    <field value="test2" number ="5" />
+    <field value="test3" number ="6" />
+    <field value="Number2" number="7" />
+  </segment>
+ </type>

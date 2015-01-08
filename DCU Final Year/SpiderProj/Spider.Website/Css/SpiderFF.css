@@ -1,0 +1,414 @@
+﻿div.FormSureContent {
+	width: 100%;
+	max-width: 800px;
+	/*padding-left: 100px;*/
+}
+
+div.PageContent {
+	max-width: 800px;
+	
+}
+
+/** General Headings **/
+.PageHeader
+{
+	color: #2774aa;
+	font-family: Tahoma, Verdana, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+.ScanFormWriting
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	width: 100%;
+	
+}
+
+/** Collapsible Panel CSS **/
+.CollapsePanelHeader
+{
+	width: 100%;
+	height: 30px;
+	background-image: url(../images/collapsiblePanelHeaderLight.gif);
+	background-repeat: repeat-x;
+	color: #2774aa;
+	text-align: left;
+	font-family: tahoma,verdana, sans-serif;
+	font-size: 11px;
+}
+.CollapsePanelDivHeader
+{
+	cursor: pointer;
+	vertical-align: middle;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 4px;
+}
+
+/** Calendar CSS **/
+
+.CalendarPopupTextBox
+{
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+}
+
+.CalendarPopup
+{
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+}
+
+.CalendarButton
+{
+	background-image: url(images/calendar.png);
+	font-family: Tahoma;
+	color: Red;
+}
+
+.MonthHeaderStyle
+{
+	background-color: #cc3333;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: White;
+}
+
+.DayHeaderStyle
+{
+	background-color: #333333;
+	color: White;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+.MonthYearItemStyle
+{
+	background-color: #99ccff;
+	font-family: Tahoma;
+	font-size: 11px;
+	width: 175px;
+}
+.MonthYearSelectedItemStyle
+{
+	background-color: #cc3333;
+	color: White;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 11px;
+	width: 10px;
+}
+.SelectedDateStyle
+{
+	background-color: #cc3333;
+	color: White;
+	border-color: Black;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.TodayDayStyle
+{
+	background-color: Yellow;
+	color: #003399;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	border-color: Black;
+	border-style: solid;
+	border-width: 1px;
+}
+.WeekendStyle
+{
+	/*background-color:#99ccff; */
+	background-color: White;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.WeekdayStyle
+{
+	/*background-color:#99ccff; */
+	background-color: White;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.OffMonthStyle
+{
+	/*background-color:#99ccff; */
+	background-color: White;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: Gray;
+}
+.MonthYearButtonStyle
+{
+	background-color: White;
+	border-color: Black;
+	border-style: solid;
+	border-width: 1px;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.TextBoxLabelStyle
+{
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+}
+.SpecialDayStyle
+{
+	background-color: Yellow;
+	color: #003399;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+.ClearDateStyle
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #004080;
+}
+.DisabledDayStyle
+{
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+.GoToTodayStyle
+{
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+/** End of Calendar CSS **/
+
+
+/** Start of Login CSS **/
+.GroupBoxHeader
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #4c4b4b;
+	
+}
+
+/** ROUNDED CORNER GROUPBOX **/
+#LoginContainer h1, #LoginContainer h2, #LoginContainer p {letter-spacing:1px; width: auto; height:auto;}
+#LoginContainer h1 {font-size:2.5em; color:#f7fbff;}
+#LoginContainer h2 {font-size:2em;color:#f7fbff; border:0;}
+#LoginContainer {background: transparent; margin:0.2em;}
+
+
+.xtop, .xbottom {display:block; background:transparent; font-size:1px;}
+.xb1, .xb2, .xb3, .xb4 {display:block; overflow:hidden;}
+.xb1, .xb2, .xb3 {height:1px;}
+.xb2, .xb3, .xb4 {background:#f7fbff; border-left:1px solid #d3ebfc; border-right:1px solid #d3ebfc;}
+.xb1 {margin:0 1em; background:#d3ebfc;}
+.xb2 {margin:0 .5em; border-width:0 2px;}
+.xb3 {margin:0 .3px;}
+.xb4 {height:2px; margin:0 0.3em;}
+
+.LoginBoxContent {display:block; background:#f7fbff; border:0 solid #d3ebfc; border-width:0 1px;}
+
+.RedText {
+	font-family: Tahoma, Verdana, Segoe, Sans-Serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: Red;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.LoginTextBox {
+	width: 93%;
+}
+/** END OF ROUNDED CORNER GROUPBOX **/
+/** End of Login CSS **/
+
+/** Start of Form Elements CSS **/
+.StatusMessage
+{
+	color: Green; /*#033e6a;*/
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.TextBox
+{
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10px;
+	width: 130px;
+}
+
+.Panel
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.NormalButton
+{
+	width: 80px;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 10pt;
+	background-color: Transparent;
+	background-image: url(../images/button.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-right: 0px outset;
+	border-top: 0px outset;
+	border-left: 0px outset;
+	border-bottom: 0px outset;
+	width: 60px;
+	height: 25px;
+}
+
+/** End of Form Elements CSS **/
+
+/** CSS for Link Cells, like on MainMenu.aspx **/
+.linkCell a img, .linkCell a {
+	text-decoration: none;
+	color: #2774aa;
+}
+
+.linkCell a img {
+	border: 1px solid #d8ecfb;
+	padding: 20px;
+}
+
+.linkCell a:hover img {
+	border: 1px solid #2774aa;
+}
+
+.linkCell a:hover {
+	text-decoration: underline;
+}
+
+/** Generic Links **/
+.NormalLink {
+	color:Blue;
+}
+.Panel
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+/** GRIDVIEW **/
+.GridView
+{
+	border: solid 1px #dff1ff;
+}
+
+.GridView td
+{
+	border: solid 1px #dff1ff;
+}
+
+.GridViewAltStyle
+{
+	background-color: #f6fafd;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	height: 18px;
+}
+
+.GridViewHeaderStyle
+{
+	background-color: #dff1ff;
+	border: solid 1px #dff1ff;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Tahoma;
+	color: #2774aa;
+	text-align: center;
+	height: 20px;
+}
+
+.GridViewRowStyle
+{
+	background-color: White;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	height: 18px;
+}
+/*Gridview style with clear format*/
+/* DOpulencia 5/12/08 */
+.GridViewAltStyleClear
+{
+	background-color: white;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	height: 18px;
+}
+.GridViewRowStyleClear
+{
+	background-color: White;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma;
+	text-align: center;
+	height: 18px;
+}
+.GridViewHeaderStyleClear
+{
+	background-color: white;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Tahoma;
+	color: black;
+	text-align: center;
+	height: 20px;
+}
+/*Gridview style with clear format*/
+.GridViewPageStyle
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.GridViewScrollBox
+{
+	overflow: auto;
+	border: solid 1px #dff1ff;
+	height: auto;
+	border: none;
+}
+
+.GridViewHorizontalScrollBox
+{
+	overflow-x: scroll;
+	border: solid 1px #dff1ff;
+	height: 300px;
+}
+
+.GridViewVerticalScrollBox
+{
+	overflow-y: scroll;
+	border: solid 1px #dff1ff;
+	height: 300px;
+}
+
+.GridViewNoScrollBox
+{
+	border: solid 1px #dff1ff;
+	height: 300px;
+}
+
+/** END OF GRIDVIEW **/

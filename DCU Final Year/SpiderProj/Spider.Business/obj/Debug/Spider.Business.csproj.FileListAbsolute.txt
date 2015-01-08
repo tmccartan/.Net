@@ -1,0 +1,7 @@
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Business\bin\Debug\Spider.Business.dll
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Business\bin\Debug\Spider.Business.pdb
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Business\obj\Debug\Spider.Business.dll
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Business\obj\Debug\Spider.Business.pdb
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Business\bin\Debug\Spider.Database.dll
+C:\Users\Ter\Desktop\4th year\project\SpiderProj\Spider.Business\bin\Debug\Spider.Database.pdb

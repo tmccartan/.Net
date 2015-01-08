@@ -1,0 +1,7 @@
+C:\Users\Ter\Desktop\4th year\Semester 1\Patterns\WebApplication1\DBSpider\bin\Debug\DBSpider.dll
+C:\Users\Ter\Desktop\4th year\Semester 1\Patterns\WebApplication1\DBSpider\bin\Debug\DBSpider.pdb
+C:\Users\Ter\Desktop\4th year\Semester 1\Patterns\WebApplication1\DBSpider\bin\Debug\ClassLibrary1.dll
+C:\Users\Ter\Desktop\4th year\Semester 1\Patterns\WebApplication1\DBSpider\bin\Debug\ClassLibrary1.pdb
+C:\Users\Ter\Desktop\4th year\Semester 1\Patterns\WebApplication1\DBSpider\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ter\Desktop\4th year\Semester 1\Patterns\WebApplication1\DBSpider\obj\Debug\DBSpider.dll
+C:\Users\Ter\Desktop\4th year\Semester 1\Patterns\WebApplication1\DBSpider\obj\Debug\DBSpider.pdb
